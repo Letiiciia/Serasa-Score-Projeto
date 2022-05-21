@@ -4,14 +4,16 @@ import com.serasa.scoreapp.controller.dto.PessoaRequest;
 import com.serasa.scoreapp.controller.dto.PessoaResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 @Validated
 @RequestMapping("/pessoa")
 public interface PessoaController {
 
     @PostMapping
-    public ResponseEntity<PessoaResponse> create(@RequestBody PessoaRequest pessoaRequest);
+    public ResponseEntity create(@RequestBody PessoaRequest pessoaRequest);
+
+    @GetMapping("{id}")
+    public ResponseEntity<PessoaResponse> getById(@PathVariable Integer id);
+
 }

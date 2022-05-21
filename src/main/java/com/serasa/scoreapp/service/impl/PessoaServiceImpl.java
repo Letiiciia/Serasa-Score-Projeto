@@ -6,6 +6,9 @@ import com.serasa.scoreapp.service.PessoaService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.Optional;
+
 @Service
 @AllArgsConstructor
 public class PessoaServiceImpl implements PessoaService {
@@ -29,5 +32,18 @@ public class PessoaServiceImpl implements PessoaService {
 
         registro = this.pessoaRepository.save(pessoa);
         return registro;
+    }
+
+    @Override
+    public Optional<Pessoa> getById(Integer id) {
+        Optional<Pessoa> finded = this.pessoaRepository.findById(id);
+        return finded;
+    }
+
+    @Override
+    public List<Pessoa> listAll() {
+       List<Pessoa> pessoas = this.pessoaRepository.findAll();
+
+       return pessoas;
     }
 }
