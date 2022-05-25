@@ -22,8 +22,8 @@
 ### Como Utilizar?
 - Swagger url
 ```bash
-- Rode o projeto localmente e build
-$ Access http://localhost:8080/swagger-ui.html#/pessoa-controller/getByIdUsingGET
+- Build e Rode o projeto localmente
+$ Depois Accesse http://localhost:8080/swagger-ui.html#/pessoa-controller/getByIdUsingGET
 ```
 
 
