@@ -17,7 +17,7 @@
 * [Lombok](#Lombok)
 * [BancoH2](#BancoH2)
 * [Swagger](#Swagger) 
-* [Observabilidade por log](#Observabilidade por log) 
+* [Observabilidade](#Log) 
 
 
 ### Como Utilizar?
