@@ -18,6 +18,7 @@
 * [BancoH2](#BancoH2)
 * [Swagger](#Swagger) 
 * [ObservabilidadeLog](#Observabilidade) 
+* [Heroku](#Heroku)  
 
 
 ### Como Utilizar?
@@ -26,7 +27,7 @@
 - Build e Rode o projeto localmente
 $ Depois Accesse http://localhost:8080/swagger-ui.html#/pessoa-controller/getByIdUsingGET
 
-- Ou acesse pela Web via:
+- Ou acesse pela Web via Heroku:
 $ https://score-serasa.herokuapp.com/swagger-ui.html#/pessoa-controller
 ```
 
