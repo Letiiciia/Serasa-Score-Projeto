@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Meetups Scheduler 🚀</h1>
+<h1 align="center">🚀 Serasa-Score-App 🚀</h1>
 <p align="center">Projeto de cadastro de pessoas com score</p>
 
 ## Implementações
@@ -25,6 +25,9 @@
 ```bash
 - Build e Rode o projeto localmente
 $ Depois Accesse http://localhost:8080/swagger-ui.html#/pessoa-controller/getByIdUsingGET
+
+- Ou acesse pela Web via:
+$ https://score-serasa.herokuapp.com/swagger-ui.html#/pessoa-controller
 ```
 
 
