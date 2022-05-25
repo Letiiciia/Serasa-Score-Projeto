@@ -5,6 +5,7 @@ import com.serasa.scoreapp.controller.dto.PessoaResponse;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
+import java.util.List;
 
 @Validated
 @RequestMapping("/pessoa")
@@ -15,5 +16,8 @@ public interface PessoaController {
 
     @GetMapping("{id}")
     public ResponseEntity<PessoaResponse> getById(@PathVariable Integer id);
+
+    @GetMapping
+    public ResponseEntity<List<PessoaResponse>> listAll();
 
 }

@@ -1,5 +1,6 @@
 package com.serasa.scoreapp.service;
 
+import com.serasa.scoreapp.controller.dto.PessoaResponse;
 import com.serasa.scoreapp.entity.Pessoa;
 
 import java.util.List;
@@ -10,6 +11,6 @@ public interface PessoaService {
 
     Optional<Pessoa> getById(Integer id);
 
-    List<Pessoa> listAll();
+    List<PessoaResponse> listAll();
 
 }
