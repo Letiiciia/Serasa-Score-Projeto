@@ -38,7 +38,7 @@ POST:"/pessoa"
 	"idade": "23",
 	"cidade": "Brasília",
 	"estado": "DF",
-	"score": "-1"
+	"score": "1000"
 }
 
 ```
